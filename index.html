@@ -3,9 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+			integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | [Challenge Name Here]</title>
   <link rel="stylesheet" href="CSS/style.css">
 
@@ -17,11 +25,17 @@
 </head>
 <body>
   <main class="container">
+    <div class="bg-div"></div>
     <div class="mobile">
+      <!-- <div class="speaker"></div> -->
       <div class="name-sec">
-        <div class="speaker"></div>
-        Samuel Green
-        Available to Walk
+        <i class="fas fa-chevron-left"></i>
+        <img src="images/avatar.jpg" alt="">
+        <div>
+          <h1>Samuel Green</h1>
+          <p>Available to Walk</p>
+        </div>
+        <i class="fas fa-ellipsis-v"></i>
       </div>
       
       <div class="message">
@@ -31,11 +45,20 @@
         Could you send over some pictures of your dog, please?
       </div>
 
-      Here are a few pictures. She’s a happy girl!
+      <div class="reply">
+        <div class="images">
+          <img src="images/dog-image-1.jpg" alt="">
+          <img src="images/dog-image-2.jpg" alt="">
+          <img src="images/dog-image-3.jpg" alt="">
+       </div>
+        <p class="reply-1">Here are a few pictures. She’s a happy girl!</p>
 
-      Can you make it?
+        <p class="reply-2">Can you make it?</p>
+      </div>
 
-      She looks so happy! The time we discussed works. How long shall I take her out for?
+      <div class="message">
+        She looks so happy! The time we discussed works. How long shall I take her out for?
+      </div>
 
       30 minute walk
       $29
@@ -43,7 +66,7 @@
       1 hour walk
       $49
 
-      Type a message…
+      <div class="type-msg">Type a message…</div>
     </div>
 
     Simple booking
