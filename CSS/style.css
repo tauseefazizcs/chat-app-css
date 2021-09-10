@@ -44,12 +44,40 @@ body{
 
 /* *******************Message************** */
 .message{
-    width: 76%;
+    width: 65%;
     background-color: hsl(206, 6%, 79%);
     color: hsl(276, 55%, 52%);
     margin: 8px;
     padding: 7px;
     border-radius: 12px;
+}
+
+/* *********** radio btn************** */
+.price{
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    display: flex;
+    color: #fff;
+    margin: 8px;
+    align-items: center;
+    width: 74%;
+    height: 36px;
+    border-radius: 12px 12px 12px 4px;
+}
+.price p{
+    margin-left: 8px;
+}
+.price h4{
+    margin-left: 40px;
+}
+.price .h4-49{
+    margin-left: 65px;
+}
+.radio-btn{
+    border: 1px solid #fff;
+    height: 15px;
+    width: 15px;
+    margin-left: 8px;
+    border-radius: 50%;
 }
 
 
@@ -85,7 +113,27 @@ body{
 
 .type-msg{
     background-color: #fff;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    border-radius: 25px;
+    padding: 7px;
+    border:blue 2px solid;
+    color: hsl(206, 6%, 79%);
+    margin: 15px;px;
 
+}
+.type-msg .send-icon{
+    background: hsl(271, 36%, 24%);
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 4px;
+    text-align: center;
+    margin-left: 112px;
+    
+    
 }
 .mobile{
     border:  8px solid #fff;
