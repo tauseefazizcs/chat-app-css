@@ -14,16 +14,18 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 /* ********APP********** */
 .mobile{
-    border:  8px solid #fff;
-    border-radius: 15px;
+    position: absolute;
+    top: 55px;
+    left: 60px;
+    border: 8px solid #fff;
+    border-radius: 26px;
     background: hsl(270, 20%, 96%);
     width: 306px;
-    box-shadow: 10px 10px 30px lightgrey;
+    box-shadow: 10px 10px 30px lightgrey
 }
 
 .speaker{
@@ -166,7 +168,10 @@ body{
 }
 /* **********Paragraph********** */
 .paragraph{
-    width: 340px;
+    margin-left: 70px;
+    width: 258px;
+    margin-top: 90px;
+    text-align: center;
 }
 .paragraph h1{
     color: hsl(271, 36%, 24%);
@@ -174,5 +179,17 @@ body{
 }
 .paragraph p{
     color: hsl(270, 7%, 64%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.6rem;
+}
+
+
+/* *********** Background div***************** */
+.bg-div{
+    width: 225px;
+    height: 600px;
+    background: hsl(264, 100%, 61%);
+    border-radius: 0 0 238px 0;
 }
  
